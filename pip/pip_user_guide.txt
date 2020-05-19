@@ -1,0 +1,33 @@
+## Algumas referências sobre o pip (Package Installer for Python)
+
+# Atualização do pip em ambientes Linux
+	- pip install -U pip
+
+# Executando o pip
+	- pip <pip arguments>
+
+# Instalando pacotes
+	- pip install AlgumPacote # última versão
+	- pip install AlgumPacote==1.0.4 # versão específica
+	- pip install 'AlgumPacote>=1.0.4' # versão mínima
+
+# Instalando pacotes de uma arquivo de dependências
+	- pip install -r requirements.txt
+
+# Gerar um arquivo de dependências
+	- pip freeze > requirements.txt
+
+# Desinstalando alguns pacotes
+	- pip uninstall AlgumPacote
+
+# Listando Pacotes
+	- pip list
+
+# Listando pacotes "desatualizados" e mostrando a versão atual disponível
+	- pip list --outdated
+
+# Mostrando detalhes sobre um determinado pacote instalado
+	- pip show sphinx
+
+# Pesquisando por pacotes no ṔyPI
+	- pip search "query"
